@@ -295,7 +295,7 @@ HTML;
                 continue;
             }
             $_output .= '<tr>';
-            $_output .= '<td class="biblio-title relation"><a href="'.SWB.'index.php?p=show_detail&id='.$rel_d['biblio_id'].'">'.$rel_d['title'].'</a></td>';
+            $_output .= '<td class="biblio-title relation"><a href="'.SWB.'&id='.$rel_d['biblio_id'].'">'.$rel_d['title'].'</a></td>';
             $_output .= '<td class="biblio-edition relation">'.$rel_d['edition'].'</td>';
             $_output .= '<td class="biblio-language relation">'.$rel_d['language_id'].'</td>';
             $_output .= '</tr>';

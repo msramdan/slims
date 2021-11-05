@@ -86,6 +86,7 @@
 
     <slims-group-subject url="index.php?p=api/subject/latest"></slims-group-subject>
     <slims-collection url="index.php?p=api/biblio/latest"></slims-collection>
+    <!-- ramdan -->
 
 </section>
 <?php endif; ?>

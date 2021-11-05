@@ -395,7 +395,7 @@ abstract class biblio_list_model
     $jsonld['@graph'] = array();
 	while ($_biblio_d = $this->resultset->fetch_assoc()) {
       $record = array();
-      $record['@id'] = 'http://'.$_SERVER['SERVER_NAME'].SWB.'index.php?p=show_detail&id='.$_biblio_d['biblio_id'];
+      // $record['@id'] = 'http://'.$_SERVER['SERVER_NAME'].SWB.'index.php?p=show_detail&id='.$_biblio_d['biblio_id'];
       $record['name'] = trim($_biblio_d['title']);
 
       // get the authors data
